@@ -1,0 +1,95 @@
+.heading{
+  text-align: center;
+}
+
+.main-container{
+  display: none;
+  position: relative;
+  top: 50%;
+  transform: perspective(1px) translateY(-50%);
+}
+
+.guess-word, .word-input-frame, .score-label-container{
+  border: 1px solid black;
+}
+
+.guess-word{
+  height: 30vh;
+  line-height: 30vh;
+  text-align: center;
+}
+
+.guess-word p{
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  font-size: 3rem;
+}
+
+.word-input, .score-label-container{
+  line-height: 10vh;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.word-input input{ /*,#fullGuess{*/
+  display: inline-block;
+  vertical-align: middle;
+  line-height: normal;
+  width: 100%;
+}
+
+.score-label-container{
+  text-align: center;
+}
+
+.score-label{
+  font-size: large;
+}
+
+/* .submit-button-container{
+  width: 100%;
+} */
+
+.close-button {
+    font-size: unset;
+  }
+
+.view {
+    height: 30vh;
+    width: 100%;
+}
+
+.full-bg-img {
+    padding: 4% 0;
+}
+
+.content h1 {
+    font-size: -webkit-xxx-large;
+}
+
+#jarallax-container-0{
+  position: relative !important;
+  padding-top: 56.25%;
+}
+
+#VideoWorker-0{
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  margin: 0 !important;
+  background-position: unset !important;
+  transform: none !important;
+}
+
+.wow h1{
+  padding: 3.5rem 0 30px 0;
+}
+
+.deepshd {
+  color: #e0dfdc;
+  text-shadow: 0 -1px 0 #fff, 0 1px 0 #2e2e2e, 0 2px 0 #2c2c2c, 0 3px 0 #2a2a2a, 0 4px 0 #282828, 0 5px 0 #262626, 0 6px 0 #242424, 0 7px 0 #222, 0 8px 0 #202020, 0 9px 0 #1e1e1e, 0 10px 0 #1c1c1c, 0 11px 0 #1a1a1a, 0 12px 0 #181818, 0 13px 0 #161616, 0 14px 0 #141414, 0 15px 0 #121212, 0 22px 30px rgba(0, 0, 0, 0.9);
+}
