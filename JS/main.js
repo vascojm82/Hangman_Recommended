@@ -147,7 +147,8 @@ function closeModal(type){
   $("#modal-container[title='" + type + "-modal']").addClass('out');    //Close a certain 'type' of Modal
   $('body').removeClass('modal-active');
   setTimeout(function()
-    {
+    {	
+	  $(".content").css("background-image", "url(assets/hangman.jpg)");
       $(".main-container").css("display","block");    //Make the main container visible
     },
   1500);
